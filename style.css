@@ -28,6 +28,11 @@ button {
     border-radius: 4px;
 }
 
+svg
+{
+    fill: currentColor;
+}
+
 #MainContent {
     background-color: Canvas;
     padding: 1%;
@@ -55,7 +60,7 @@ button {
     padding: 2em;
 }
 
-@media (orientation: portrait) or (max-height: 680px) {
+@media (orientation: portrait) or (max-height: 800px) {
 
     #MainContent {
         max-width: 100%;
